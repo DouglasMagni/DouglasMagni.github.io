@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Position Elements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="\\wsl.localhost\Ubuntu\home\douglas\dev-academy\DouglasMagni.github.io\styles\main.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body class="blog-text">
+    <h1 class="center">Lets's talk about Positioned Elements</h1>
+    <div>We are going to talk about 3 out of the 5 positioning elements.</div>
+    <div>
+      The positioned elements are crucial to specify how an element should be
+      positioned in a document which causes the element to behave differently.
+      They are: static, relative, absolute, fixed, and sticky. However, our
+      focus will be on the 3 most common elements (relative, absolute, and
+      fixed).
+    </div>
+    <h2>Relative position:</h2>
+    <p>
+      The element retains its flow in the document and occupies as much space as
+      needed by default. The idea here is that the element is relative to its
+      default position. Using these positioning elements moves the element
+      around the default position without affecting others. Look at the image
+      below:
+    </p>
+    <div class="flex.container">
+      <div>
+        <img src="relative-css.jpg" /> </div>
+        <div><img src="relative-blocks.jpg" /></div>
+      </div>
+    </div>
+    <p>
+      The blue block is still assumed to be filling up its default space, but
+      positioning styles can move it around without pushing the others.
+    </p>
+    <h2>Absolute position:</h2>
+    <p>
+      Elements with the absolute position are positioned elements that work
+      externally on the flow of the page. Their space on the screen is taken
+      away from them and assigned to other elements. Look at the image below:
+    </p>
+    <div class="flex.container">
+      <div>
+        <img src="absolute-css.jpg" /> </div>
+        <div><img src="absolute-image.jpg" /></div>
+      </div>
+    </div>
+    <p>
+      As shown above, the blue block's space earlier is now replaced by the
+      green block. It does not affect the others. You can see it as the absolute
+      element in its territory outside the container. it's important to mention
+      that the absolute position considers the closest relative positioned
+      parent, and if none, they are placed within the viewport (browser window).
+    </p>
+    <h2>Fixed position:</h2>
+    <p>
+      The fixed position is similar to the absolute position. The difference is
+      that the fixed position does not respect any relative parents (or
+      ancestors). It only respects the viewport. Look at the image below:
+    </p>
+    <div>
+      <div>
+        <img src="fixed-css.jpg" /> </div>
+        <div><img src="fixed-image.jpg" /></div>
+      </div>
+    </div>
+    <p>
+      The fixed element only respects the viewport regardless of the relative
+      parent.
+    </p>
+    <h2>Wrap Up</h2>
+    <p>
+      In CSS, we have positioned and non-positioned elements. Non-positioned
+      elements appear as the flow is declared in the markup. This applies to the
+      static position style. Positioned elements may appear in the same flow in
+      some cases (sticky and relative) and may not in some other cases
+      (absolute, fixed), but they can be controlled with positioning styles
+      (top, left, right, bottom).
+    </p>
+  </body>
+</html>
