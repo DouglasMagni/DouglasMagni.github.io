@@ -18,7 +18,13 @@ body {
   transition-duration: 0.4s;
   overflow: hidden;
 }
-
+.button2 {
+  text-align: justify;
+  color: rgb(212, 184, 20);
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
 .center {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
