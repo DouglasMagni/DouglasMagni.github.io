@@ -1,26 +1,41 @@
 head {
   text-align: center;
 }
-
-body {
-  text-align: justify;
+header{
+  
   font-family: Courier;
+  font-size: 80px;
+  position:relative;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 70px;
+  box-shadow: 6px 4px rgb(24, 123, 156);
+  color: rgb(212, 184, 20);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  margin: 200px;
+  text-align: justify;
+  font-family:ubunto;
   background-image: linear-gradient(
     to bottom,
     rgb(179, 207, 231),
     rgba(4, 150, 155, 0.048)
   );
+   font-family: Courier;
 
-  color: rgb(70, 66, 50);
+  color: rgb(43, 41, 33);
 }
 .button {
-  background-color: rgb(24, 123, 156);
+  
   color: rgb(212, 184, 20);
   padding: 10px 24px;
   transition-duration: 0.4s;
   overflow: hidden;
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   "Lucida Sans", Arial, sans-serif;
 }
 
@@ -60,20 +75,16 @@ body {
   float: right;
 }
 
-h1 {
-  padding: 20px;
-  margin: 20px;
-  margin-bottom: 70px;
-  box-shadow: 6px 4px rgb(24, 123, 156);
-  color: rgb(212, 184, 20);
-}
+
 h2 {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+  
   background-color: rgb(24, 123, 156);
   color: rgb(212, 184, 20);
+  border-radius: 30%;
+  background: linear-gradient(45deg, #134e8a, #3498db);
 }
+
 .post-text {
   text-align: center;
   width: 300px;
@@ -109,7 +120,7 @@ h3 {
 .list-container {
   display: inline-block;
  
-  width: 600px;
+  width: 500px;
     height: 200px;
     border: 2px solid rgb(212, 184, 20);
     border-radius: 8px;
