@@ -21,7 +21,7 @@ body {
   overflow: hidden;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  "Lucida Sans", Arial, sans-serif;
 }
 
 .center {
@@ -69,7 +69,8 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-family: optima;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
   background-color: rgb(24, 123, 156);
   color: rgb(212, 184, 20);
 }
@@ -87,9 +88,45 @@ h2 {
 }
 h3 {
   display: block;
-
+  margin-bottom: 8px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+//----------list here ---------//
+/* Styling for both lists */
+.big-box {
+  display: flex;
+}
+.button-list{
+ 
+  color:rgb(24, 123, 156);
+
+}
+/* Styling for each list container */
+.list-container {
+  display: inline-block;
+ 
+  width: 600px;
+    height: 200px;
+    border: 2px solid rgb(212, 184, 20);
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;* Include padding and border in width calculation */
+    background-color: #3498db;
+    color: rgb(24, 123, 156); /* Set the text color to orange */
+    text-align: justify;
+    box-shadow: 0 0 10px rgb(212, 184, 20);
+  }
+
+/* Styling for the titles */
+
+
+/* Styling for the lists */
+ul {
+  margin:20px;
+  list-style-type:circle;
+}
+
+li{ margin:10px;}
