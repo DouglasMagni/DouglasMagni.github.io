@@ -81,7 +81,7 @@ h2 {
   
   background-color: rgb(24, 123, 156);
   color: rgb(212, 184, 20);
-  border-radius: 30%;
+  border-radius: 10%;
   background: linear-gradient(45deg, #134e8a, #3498db);
 }
 
@@ -109,7 +109,8 @@ h3 {
 //----------list here ---------//
 /* Styling for both lists */
 .big-box {
-  display: flex;
+  display: flex, inline-block;
+  display: inline-block;
 }
 .button-list{
  
@@ -118,8 +119,8 @@ h3 {
 }
 /* Styling for each list container */
 .list-container {
+  
   display: inline-block;
- 
   width: 500px;
     height: 200px;
     border: 2px solid rgb(212, 184, 20);
