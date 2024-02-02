@@ -177,3 +177,34 @@ li{ margin:10px;}
     height: auto; /* Adjust height for smaller screens */
   }
 }
+
+/*------------Table bars CSS-----------
+*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.bar {
+  height: 20px;
+  background-color: rgb(212, 184, 20); /* Green bar color */
+}
+
+.percentage {
+  font-weight: bold;
+}
