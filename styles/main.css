@@ -1,42 +1,39 @@
 head {
   text-align: center;
 }
-header{
-  
-  font-family: Courier;
-  font-size: 65px;
-  position:relative;
-  padding: 20px;
-  margin: 20px;
-  margin-bottom: 70px;
-  box-shadow: 6px 4px rgb(24, 123, 156);
-  color: rgb(212, 184, 20);
-  text-align: center;
+
+header {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 5vw; /* Adjust font size for responsiveness */
+  position: relative;
+  padding: 2vw; /* Adjust padding for responsiveness */
+  margin: 2vw; /* Adjust margin for responsiveness */
+  margin-bottom: 7vw; /* Adjust margin for responsiveness */
+  box-shadow: 0.3vw 0.2vw rgb(24, 123, 156); /* Adjust box shadow for responsiveness */
+  color: rgb(212, 184, 20);
 }
+
 body {
-  margin: 200px;
+  margin: 9%; /* Adjust margin for responsiveness */
   text-align: justify;
-  font-family:ubunto;
+  font-family: "Ubunto", Arial, sans-serif; /* Correct the spelling of font-family */
   background-image: linear-gradient(
     to bottom,
     rgb(179, 207, 231),
     rgba(4, 150, 155, 0.048)
   );
-   font-family: Courier;
-
   color: rgb(43, 41, 33);
 }
+
 .button {
-  
   color: rgb(212, 184, 20);
-  padding: 10px 24px;
+  padding: 1vw 2vw; /* Adjust padding for responsiveness */
   transition-duration: 0.4s;
   overflow: hidden;
   text-align: center;
-  font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .center {
@@ -47,164 +44,94 @@ body {
 
 .blog-text {
   display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  font-size: 1.5vw; /* Adjust font size for responsiveness */
+  margin-block-start: 1vw; /* Adjust margin for responsiveness */
+  margin-block-end: 1vw; /* Adjust margin for responsiveness */
   font-weight: bold;
-  margin: 100px;
+  margin: 10vw; /* Adjust margin for responsiveness */
 }
 
-.dougprofile {
-  width: 20%;
+.dougprofile,
+.dougfunnie {
+  width: 20vw; /* Adjust width for responsiveness */
   height: auto;
-  object-position: 550% 100%;
+  object-fit: cover; /* Maintain aspect ratio */
   border-radius: 30%;
-  float: right;
-  padding: 30px;
+  padding: 2vw; /* Adjust padding for responsiveness */
 }
+
 .flex-container-image {
   display: flex;
-  position: relative;
-  top: 10px;
+  flex-direction: column; /* Stack flex items vertically */
+  align-items: center; /* Center items horizontally */
 }
-.dougfunnie {
-  width: 20%;
-  height: auto;
-  object-position: 150% 100%;
-  border-radius: 30%;
-  float: right;
-}
-
 
 h2 {
   text-align: center;
-  
   background-color: rgb(24, 123, 156);
   color: rgb(212, 184, 20);
   border-radius: 10%;
   background: linear-gradient(45deg, #134e8a, #3498db);
 }
 
-.post-text {
-  text-align: center;
-  width: 300px;
-  height: 100px;
-}
-
-.flex-container-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 10px;
-}
-h3 {
-  display: block;
-  margin-bottom: 8px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-//----------list here ---------//
-/* Styling for both lists */
 .big-box {
-  display: flex, inline-block;
-  display: inline-block;
+  display: flex;
+  flex-direction: column; /* Stack boxes vertically */
+  align-items: center; /* Center items horizontally */
 }
-.button-list{
- 
-  color:rgb(24, 123, 156);
 
-}
-/* Styling for each list container */
 .list-container {
-  
-  display: inline-block;
-  width: 500px;
-    height: 200px;
-    border: 2px solid rgb(212, 184, 20);
-    border-radius: 8px;
-    transition: border-color 0.3s ease-in-out;* Include padding and border in width calculation */
-    background-color: #3498db;
-    color: rgb(24, 123, 156); /* Set the text color to orange */
-    text-align: justify;
-    box-shadow: 0 0 10px rgb(212, 184, 20);
-  }
-
-/* Styling for the titles */
-
-
-/* Styling for the lists */
-ul {
-  margin:20px;
-  list-style-type:circle;
+  width: 90vw; /* Adjust width for responsiveness */
+  max-width: 500px; /* Limit maximum width */
+  height: auto; /* Adjust height for responsiveness */
+  border: 2px solid rgb(212, 184, 20);
+  border-radius: 8px;
+  background-color: #d1e6f3;
+  color: rgb(24, 123, 156);
+  text-align: justify;
+  box-shadow: 0 0 1vw rgb(212, 184, 20); /* Adjust box shadow for responsiveness */
+  margin: 10px;
+}
+.button-list {
+  color: rgb(24, 123, 156);
+  margin: 10px;
+  margin-inline: 10px;
+  padding: 10px;
 }
 
-li{ margin:10px;}
-//
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
   header {
-    font-size: 50px; /* Adjust font size for smaller screens */
+    font-size: 4vw; /* Adjust font size for smaller screens */
   }
 
   body {
-    margin: 20px; /* Adjust margin for smaller screens */
+    margin: 5vw; /* Adjust margin for smaller screens */
   }
 
   .button {
-    padding: 8px 16px; /* Adjust button padding for smaller screens */
+    padding: 1vw 1.5vw; /* Adjust button padding for smaller screens */
   }
 
-  .dougprofile, .dougfunnie {
-    width: 100%; /* Adjust image width for smaller screens */
-    object-position: center; /* Center the image */
-    float: none; /* Remove float for better responsiveness */
-    padding: 10px; /* Adjust padding for smaller screens */
+  .dougprofile,
+  .dougfunnie {
+    width: 80%; /* Adjust image width for smaller screens */
+    padding: 1vw; /* Adjust padding for smaller screens */
   }
 
   .flex-container-image {
     flex-direction: column; /* Stack flex items vertically on smaller screens */
+    align-items: center; /* Center items horizontally on smaller screens */
   }
 
   .big-box {
     flex-direction: column; /* Stack boxes vertically on smaller screens */
+    align-items: center; /* Center items horizontally on smaller screens */
   }
 
   .list-container {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 90vw; /* Adjust width for smaller screens */
+    max-width: 90vw; /* Limit maximum width for smaller screens */
     height: auto; /* Adjust height for smaller screens */
   }
-}
-
-/*------------Table bars CSS-----------
-*/
-body {
-  font-family: Arial, sans-serif;
-}
-
-table {
-  width: 50%;
-  border-collapse: collapse;
-  margin: 20px auto;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-.bar {
-  height: 20px;
-  background-color: rgb(212, 184, 20); /* Green bar color */
-}
-
-.percentage {
-  font-weight: bold;
 }
