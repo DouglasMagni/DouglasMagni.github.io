@@ -57,7 +57,7 @@ function App() {
   const [search, setSearch] = useState("");
   return (
     <div className="app">
-      <h1> To Do List</h1>
+      <h1> ToDo List</h1>
       <Search search={search} setSearch={setSearch} />
       <Filter />
       <div className="todo-list">
